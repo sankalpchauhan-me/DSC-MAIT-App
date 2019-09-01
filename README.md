@@ -6,7 +6,9 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 
 <p align="center">
-<a href='https://play.google.com/store/apps/details?id=me.sankalpchauhan.dscmait&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/apps/testing/me.sankalpchauhan.dscmait'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+ 
+Published App is only availaible for internal testing please contact sankalp@sankalpchauhan.me to become a tester for the app
 </p>
 
 ## Official App: Developer Student Club - Maharaja Agrasen Institute Of Technology
