@@ -5,12 +5,6 @@
 ![Version](https://img.shields.io/badge/version-v1.0.0alpha-orange)
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 
-<p align="center">
-<a href='https://play.google.com/apps/testing/me.sankalpchauhan.dscmait'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
- 
-Published App is only availaible for internal testing please contact sankalp@sankalpchauhan.me to become a tester for the app
-</p>
-
 ## Official App: Developer Student Club - Maharaja Agrasen Institute Of Technology
 Developer Student Clubs (DSC) are community groups for students from any academic background in their undergraduate or graduate term. By joining a DSC, students build their professional and personal network, get access to Google developer resources, and work together to build solutions for local problems in a peer-to-peer learning environment.
 
@@ -35,3 +29,9 @@ Current State of the app:-
 
 * For initiating a bug report please read [Bug Report Template](https://github.com/sankalpchauhan-me/DSCMait/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
 * For initiating a Feature Request Please read [Feature Request Template](https://github.com/sankalpchauhan-me/DSCMait/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
+
+<p align="center">
+<a href='https://play.google.com/apps/testing/me.sankalpchauhan.dscmait'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+ 
+Published App is only availaible for internal testing please contact sankalp@sankalpchauhan.me to become a tester for the app
+</p>
