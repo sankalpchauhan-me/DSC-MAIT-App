@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="me.sankalpchauhan.challengelogin.MainQuick">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/updatePhoneUser"
+        android:orderInCategory="10"
+        android:title="Update Phone Number"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/updateEmailUser"
+        android:orderInCategory="11"
+        android:title="Update Email"
+        app:showAsAction="never"/>
+</menu>

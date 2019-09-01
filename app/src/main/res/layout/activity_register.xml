@@ -1,0 +1,294 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/loginbackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:focusableInTouchMode="true"
+        tools:context=".RegisterActivity">
+        <!--<android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >-->
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="211sp"
+                android:layout_height="204sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/logo"
+                android:transitionName="reveal"
+                android:layout_marginBottom="30dp"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintVertical_bias="0.17000002">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#fff"
+                    android:orientation="vertical"
+                    android:textColorHint="#fff">
+
+                    <EditText
+                        android:id="@+id/regemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:layout_gravity="center"
+                        android:backgroundTint="#fff"
+                        android:drawableEnd="@drawable/ic_email_white"
+                        android:ellipsize="end"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:hint="Email"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textAlignment="center"
+                        android:textColorHighlight="#fff"
+                        android:textColorHint="#fff" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#fff"
+                    android:layout_weight="0.5"
+                   >
+
+                    <EditText
+                        android:id="@+id/regfirstname"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="#fff"
+                        android:ellipsize="start"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:hint="FirstName"
+                        android:textAlignment="center"
+                        android:textColorHighlight="#fff"
+                        android:textColorHint="#fff"
+                        android:maxLines="1"
+
+
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="#fff"
+                        android:layout_weight="0.5"
+                        >
+
+                        <EditText
+                            android:id="@+id/reglastname"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:backgroundTint="#fff"
+                            android:ellipsize="start"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:hint="LastName"
+                            android:textAlignment="center"
+                            android:textColorHighlight="#fff"
+                            android:textColorHint="#fff"
+                            android:maxLines="1"
+
+
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="#fff"
+                        android:layout_weight="0.5"
+                        >
+
+                        <EditText
+                            android:id="@+id/regcollege"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:backgroundTint="#fff"
+                            android:ellipsize="start"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:hint="College"
+                            android:textAlignment="center"
+                            android:textColorHighlight="#fff"
+                            android:textColorHint="#fff"
+
+
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="#fff"
+                        android:layout_weight="0.5"
+                        >
+
+                        <EditText
+                            android:id="@+id/regsemester"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:backgroundTint="#fff"
+                            android:ellipsize="start"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:hint="Semester"
+                            android:textAlignment="center"
+                            android:textColorHighlight="#fff"
+                            android:textColorHint="#fff"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#fff"
+                    >
+
+                    <EditText
+                        android:id="@+id/regmobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="#fff"
+                        android:ellipsize="start"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:hint="Mobile No. (Optional)"
+                        android:textAlignment="center"
+                        android:textColorHighlight="#fff"
+                        android:textColorHint="#fff"
+                        android:inputType="number"
+                        android:maxLength="13"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <EditText
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/regaccountBox"
+                    android:inputType="textMultiLine"
+                    android:lines="20"
+                    android:minLines="6"
+                    android:gravity="top|left"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:scrollbars="vertical"
+                    android:textColorHint="#fff"
+                    android:hint="Tell us about yourself (your interests, hobbies etc) in maximum of 6 lines (Optional)"
+                    android:background="@drawable/register_desc_state"
+                    />
+
+                <TextView
+                    android:id="@+id/requestDeclaration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You agree to our Privacy Policy, DSC MAIT will review your application. Based on your response we may or may not grant you the access to this app. Best Of Luck!"
+                    android:textAlignment="center"/>
+
+                <CheckBox
+                    android:id="@+id/consentCheck"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agree"
+                    android:textColor="#fff"
+                    />
+
+
+                <Button
+                    android:id="@+id/regBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="26dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/buttonsimple"
+                    android:text="Submit Request"
+                    android:textColor="#FFF"
+                    app:layout_constraintBottom_toTopOf="@+id/passForgot"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                    app:layout_constraintVertical_bias="0.45" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

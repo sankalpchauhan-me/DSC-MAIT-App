@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App: Beta (v1)"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textColorHint="#3D78BF">
+
+        <EditText
+            android:id="@+id/feedback_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ellipsize="end"
+            android:hint="Title*"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHighlight="#5196E9"
+            android:textColorHint="#3D78BF"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textColorHint="#3D78BF">
+
+        <EditText
+            android:id="@+id/feedback_category"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ellipsize="end"
+            android:hint="Category (Critical if app crashes)*"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHighlight="#5196E9"
+            android:textColorHint="#3D78BF"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/feedbackBox"
+        android:inputType="textMultiLine"
+            android:lines="20"
+            android:minLines="6"
+            android:gravity="top|left"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:scrollbars="vertical"
+            android:hint="Describe the issue briefly, Device Name, Android Version and steps to reproduce (if any)*"
+    />
+
+    <Button
+        android:id="@+id/feedback_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Submit"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer Support Mail"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sankalp@sankalpchauhan.me"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/md_blue_A400"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>

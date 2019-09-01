@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Request"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will take a look at your application"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textColorHint="#3D78BF">
+
+        <EditText
+            android:id="@+id/request_email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ellipsize="end"
+            android:hint="Email"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHighlight="#5196E9"
+            android:textColorHint="#3D78BF"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textColorHint="#3D78BF"
+        android:layout_weight="0.5">
+
+        <EditText
+            android:id="@+id/request_FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ellipsize="end"
+            android:hint="FirstName"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHighlight="#5196E9"
+            android:textColorHint="#3D78BF"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColorHint="#3D78BF"
+            android:layout_weight="0.5">
+
+            <EditText
+                android:id="@+id/request_LastName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ellipsize="end"
+                android:hint="LastName"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHighlight="#5196E9"
+                android:textColorHint="#3D78BF"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:textColorHint="#3D78BF"
+                android:layout_weight="0.5">
+
+                <EditText
+                    android:id="@+id/request_College"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ellipsize="end"
+                    android:hint="CollegeName"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHighlight="#5196E9"
+                    android:textColorHint="#3D78BF"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:textColorHint="#3D78BF"
+                android:layout_weight="0.5">
+
+                <EditText
+                    android:id="@+id/request_Semester"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ellipsize="end"
+                    android:hint="Semester"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHighlight="#5196E9"
+                    android:textColorHint="#3D78BF"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColorHint="#3D78BF">
+
+            <EditText
+                android:id="@+id/request_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ellipsize="end"
+                android:hint="Mobile (Optional)"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHighlight="#5196E9"
+                android:textColorHint="#3D78BF"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/accountBox"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:hint="Tell us about yourself (your interests, hobbies etc) in maximum of 6 lines (Optional)"
+        />
+
+    <Button
+        android:id="@+id/feedback_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Submit"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer Support Mail"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="support@sankalpchauhan.me"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/md_blue_A400"
+        android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
